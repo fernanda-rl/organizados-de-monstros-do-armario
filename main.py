@@ -78,6 +78,8 @@ while True:
 
     if opcao == "1":
         nome = input("Nome do monstro: ")
+        idade = int(input("Idade do monstro: "))
+        origem = input("Origem do monstro: ")
         susto = int(input("Nível de susto (1 a 10): "))
         armario.adicionar_monstro(nome, susto)
     elif opcao == "2":
